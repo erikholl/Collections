@@ -5,20 +5,15 @@ import java.util.LinkedList;
 import java.util.stream.IntStream;
 
 public class Exercise1 {
-
     public static void main(String[] args) {
-//        part2();
-        part1();
-
+        part2();
+//        part1();
     }
-
 
     private static void part2() {
         List<String> wordList = new ArrayList<>();
         Scanner userInput = new Scanner(System.in);
-
         System.out.println("give me a sentence");
-
         String word;
 
         do {
